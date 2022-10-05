@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    background-image: url("../TPY/img/cropped-3840-2160-1168930.png");
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+
+header {
+    display: flex ;
+    align-items: center;
+    padding: 5px;
+    background: #34374C;
+    box-shadow: 0 12px 12px rgb(0 0 0 / 50%);
+    min-width: auto;
+    max-width: auto;
+    
+}
+
+
+.logo {
+
+    cursor: pointer;
+    height: 64px;
+    padding-left: 15px;
+
+}
+
+.nav {
+
+    font-family: "Oswald", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+    
+
+}
+
+.nav li {
+    display: inline-block;
+    padding: 0px 60px;
+
+    
+
+    
+}
+
+.nav li a {
+    transition: all 0.3s ease 0s;
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    text-align: left;
+}
+
+
+.nav a:hover {
+    color: rgb(217, 19, 19);
+    text-decoration: none;
+}
+
+
+.nav:focus {
+    color: white;
+}
+
+
+
+.titulo_juegos {
+    color: white;
+    font-family: "Oswald";
+    box-sizing: border-box;
+    display: block;
+    font-size: 64px;
+    font-weight: 500;
+    text-align: left;
+    margin: 5px;
+    padding: 24px;
+    
+}
+
+.logolol {
+
+
+    display: inline;
+    margin: 5px;
+    position: relative;
+    width: 250px;
+    overflow: hidden;
+    border-radius: 8000px;
+    align-items: center;
+    }
+
+
+.logolol:after {
+        content: " ";
+        position: absolute;
+        top: 5px;
+        bottom: 5px;
+        left: 5px;
+        right: 5px;
+        z-index: auto;
+       border-radius: 6000px;
+      }
+
+.logofort {
+        display: inline;
+        margin: 5px;
+        position: relative;
+        width: 250px;
+        overflow: hidden;
+        border-radius: 600px 600px 600px 600px;
+        
+        }
+
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1em;
+    padding: 30px;
+    align-items:center;
+}
+
+.div {
+    background-color: white;
+    padding: 1em;
+    align-items: center;
+}
